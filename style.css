@@ -1,0 +1,103 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  line-height: 1.6;
+
+  background-color: #f4f4f4;
+
+  color: #333;
+
+}
+
+header {
+
+  background: #333;
+
+  color: #fff;
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+header button {
+
+  margin-top: 10px;
+
+  padding: 8px 12px;
+
+  background: #fff;
+
+  color: #333;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+.profile, .academics, .projects, .certifications, .contact {
+
+  padding: 20px;
+
+  background: #fff;
+
+  margin: 20px;
+
+  border-radius: 5px;
+
+}
+
+.profile-pic {
+
+  width: 120px;
+
+  border-radius: 50%;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 10px;
+
+  background: #333;
+
+  color: #fff;
+
+}
+
+.dark-theme {
+
+  background-color: #222;
+
+  color: #f9f9f9;
+
+}
+
+.dark-theme header, .dark-theme footer {
+
+  background: #111;
+
+}
+
+.dark-theme .profile,
+
+.dark-theme .academics,
+
+.dark-theme .projects,
+
+.dark-theme .certifications,
+
+.dark-theme .contact {
+
+  background: #333;
+
+}
